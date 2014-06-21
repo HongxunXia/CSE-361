@@ -1,4 +1,4 @@
-
+package com.gwt.cse361UI.server;
 public class DatabaseInfo {
 
 	public static final String url = "jdbc:mysql://cse.unl.edu/agrantha";

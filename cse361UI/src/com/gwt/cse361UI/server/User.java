@@ -1,3 +1,5 @@
+package com.gwt.cse361UI.server;
+
 import java.util.*;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -36,11 +38,11 @@ import javax.persistence.Transient;
 @Table(name="Person")
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name="type")
-@DiscriminatorValue("C");
+@DiscriminatorValue("C")
 public class User {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.Auto)
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="UserID", nullable = false)
 	int UserID;
 	
