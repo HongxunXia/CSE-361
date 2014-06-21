@@ -1,0 +1,2 @@
+serviceClass: com.gwt.cse361UI.client.GreetingService
+path: 7D219E04DF3497A5D7243289C0FE0A28.gwt.rpc
